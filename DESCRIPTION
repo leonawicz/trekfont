@@ -9,9 +9,5 @@ LazyData: true
 ByteCompile: true
 URL: https://github.com/leonawicz/trekfont
 BugReports: https://github.com/leonawicz/trekfont/issues
-Suggests:
-    testthat,
-    knitr,
-    rmarkdown
-Depends: R (>= 3.4.0)
+Depends: R (>= 2.10)
 RoxygenNote: 6.0.1
