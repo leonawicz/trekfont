@@ -6,8 +6,6 @@ trekfont
 Status](https://travis-ci.org/leonawicz/trekfont.svg?branch=master)](https://travis-ci.org/leonawicz/trekfont)
 [![AppVeyor Build
 Status](https://ci.appveyor.com/api/projects/status/github/leonawicz/trekfont?branch=master&svg=true)](https://ci.appveyor.com/project/leonawicz/trekfont)
-[![Coverage
-Status](https://img.shields.io/codecov/c/github/leonawicz/trekfont/master.svg)](https://codecov.io/github/leonawicz/trekfont?branch=master)
 
 This package contains true type and open type Star Trek fonts.
 
