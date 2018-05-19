@@ -8,16 +8,16 @@
 0 errors | 0 warnings | 1 notes
 
 * This is a new release.
-
-* Checking installed package size:
-    installed size is  4.3Mb
-  sub-directories of 1Mb or more:
-    inst/fonts 4.3Mb
     
-This is a data package that will rarely update.
+This is a data package that will rarely update, if ever.
 
-This data package is meant to provide support to another R package, `rtrek`, to be submitted to CRAN afterward:
+Installed package size: 4.3Mb
+Sub-directories of 1Mb or more: fonts 4.3Mb
+    
+Context: This data package is meant to (optionally, but not required) provide support to other R packages including, `rtrek`, to be submitted to CRAN afterward:
 https://github.com/leonawicz/rtrek
+
+License details: `rtrek` will not depend on `trekfont`. `rtrek` will have the MIT license whereas `trekfont` has the more restrictive GPL-3 license passed on by other font maintainers.
 
 ## Downstream dependencies
 
