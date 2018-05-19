@@ -21,5 +21,5 @@ License details: `rtrek` will not depend on `trekfont`. `rtrek` will have the MI
 
 ## Downstream dependencies
 
-This package have no reverse dependencies:
+This package has no reverse dependencies:
 (https://github.com/leonawicz/trekfont/blob/master/revdep/checks.rds). 
