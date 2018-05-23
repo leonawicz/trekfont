@@ -1,5 +1,5 @@
 Package: trekfont
-Version: 0.9.1
+Version: 0.9.2
 Title: Star Trek Fonts Collection
 Description: Provides a collection of true type and open type Star Trek-themed fonts.
 Authors@R: person("Matthew", "Leonawicz", email = "mfleonawicz@alaska.edu", role = c("aut", "cre"))
