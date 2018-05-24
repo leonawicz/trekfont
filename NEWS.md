@@ -1,4 +1,4 @@
-# trekfont 0.9.2
+# trekfont 0.9.2 (Release date: 2018-05-23)
 
 * Added arbitrary function `show_trekfonts` that simply calls the package dataset `trekfont`, regarding CRAN request requiring there be at least one executable example in the package.
 
