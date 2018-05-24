@@ -10,6 +10,12 @@ This package contains true type and open type Star Trek fonts.
 Installation
 ------------
 
+Install `rtrek` with:
+
+``` r
+install.packages("trekfont")
+```
+
 Install the development version from [GitHub](https://github.com/) with:
 
 ``` r
