@@ -16,13 +16,13 @@ This package contains true type and open type Star Trek fonts.
 
 ## Installation
 
-Install `rtrek` with:
+Install `trekfont` from CRAN with:
 
 ``` r
 install.packages("trekfont")
 ```
 
-Install the development version from [GitHub](https://github.com/) with:
+Install the development version from GitHub with:
 
 ``` r
 # install.packages("devtools")
@@ -35,4 +35,4 @@ devtools::install_github("leonawicz/trekfont")
 
 Font files are located in the `inst` directory and can be installed using the [sysfonts](https://CRAN.R-project.org/package=sysfonts) package.
 
-The [rtrek](https://github.com/leonawicz/rtrek) package does not import `trekfont`, but it does provide a convenient wrapper function for font installation if `trekfont` is installed.
+The [rtrek](https://github.com/leonawicz/rtrek) package does not import `trekfont`, but it does provide a convenient wrapper function for font previewing the various fonts if `trekfont` is installed.
