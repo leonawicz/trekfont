@@ -39,4 +39,6 @@ devtools::install_github("leonawicz/trekfont")
 
 Font files are located in the `inst` directory and can be installed using the [sysfonts](https://CRAN.R-project.org/package=sysfonts) package.
 
-The [rtrek](https://github.com/leonawicz/rtrek) package does not import `trekfont`, but it does provide a convenient wrapper function for font previewing the various fonts if `trekfont` is installed.
+See this [simplified example](https://leonawicz.github.io/blog/post/trekfont-star-trek-themed-fonts-package/) with minimal use of other packages like `showtext` and `sysfonts` for loading and using these fonts.
+
+The [rtrek](https://github.com/leonawicz/rtrek) package does not import `trekfont`, but it does provide a convenient wrapper function for previewing the various fonts if `trekfont` is installed.
