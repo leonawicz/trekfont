@@ -7,6 +7,8 @@ trekfont
 
 This package contains true type and open type Star Trek fonts.
 
+<img src="https://raw.githubusercontent.com/leonawicz/rtrek/master/data-raw/images/font_preview.png">
+
 Installation
 ------------
 
@@ -22,6 +24,8 @@ Install the development version from [GitHub](https://github.com/) with:
 # install.packages("devtools")
 devtools::install_github("leonawicz/trekfont")
 ```
+
+<img src="https://raw.githubusercontent.com/leonawicz/blog/master/static/img/post/trekfont_plot.png">
 
 Details
 -------
