@@ -4,7 +4,8 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# trekfont
+# trekfont <a hef="https://github.com/leonawicz/trekfont/blob/master/data-raw/trekfont.png?raw=true" _target="blank"><img src="https://github.com/leonawicz/trekfont/blob/master/data-raw/trekfont-small.png?raw=true" style="margin-left:10px;margin-bottom:5px;" width="120" align="right"></a>
+
 
 [![CRAN status](http://www.r-pkg.org/badges/version/trekfont)](https://cran.r-project.org/package=trekfont)
 [![CRAN downloads](http://cranlogs.r-pkg.org/badges/grand-total/trekfont)](https://cran.r-project.org/package=trekfont) 
