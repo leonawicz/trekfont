@@ -15,8 +15,8 @@ meme(subplot, label = c("TREK", "FONT"), subplot, size = 24,
 round(3441*2400/2074) # Next, crop width, stretch width, and resave as hexsubplot2.png, then continue with script.
 
 hex_plot <- function(out, mult = 1){
-  sticker("data-raw/hexsubplot2.png", 1.01, 1, 0.8, 0.8, "", h_size = mult * 1, h_fill = "#000010", h_color = "#00BFFF",
-          url = paste0("leonawicz.github.io/", pkg), u_color = "#00BFFF", u_size = mult * 3, filename = out)
+  sticker("data-raw/hexsubplot2.png", 1.01, 1, 0.8, 0.8, "", h_size = mult * 1, h_fill = "#000018", h_color = "#00BFFF",
+          url = "github.com/leonawicz/trekfont", u_color = "#00BFFF", u_size = mult * 3, filename = out)
   # overwrite file for larger size
   if(mult != 1) ggplot2::ggsave(out, width = mult*43.9, height = mult*50.8, bg = "transparent", units = "mm")
 }
