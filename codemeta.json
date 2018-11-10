@@ -1,0 +1,56 @@
+{
+  "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+  "@type": "SoftwareSourceCode",
+  "identifier": "trekfont",
+  "description": "Provides a collection of true type and open type Star Trek-themed fonts.",
+  "name": "trekfont: Star Trek Fonts Collection",
+  "codeRepository": "https://github.com/leonawicz/trekfont",
+  "issueTracker": "https://github.com/leonawicz/trekfont/issues",
+  "license": "https://spdx.org/licenses/GPL-3.0",
+  "version": "0.9.3",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "version": "3.5.1",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 3.5.1 (2018-07-02)",
+  "provider": {
+    "@id": "https://cran.r-project.org",
+    "@type": "Organization",
+    "name": "Comprehensive R Archive Network (CRAN)",
+    "url": "https://cran.r-project.org"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Matthew",
+      "familyName": "Leonawicz",
+      "email": "matt_leonawicz@esource.com",
+      "@id": "https://orcid.org/0000-0001-9452-2771"
+    }
+  ],
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Matthew",
+      "familyName": "Leonawicz",
+      "email": "matt_leonawicz@esource.com",
+      "@id": "https://orcid.org/0000-0001-9452-2771"
+    }
+  ],
+  "softwareSuggestions": [],
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "R",
+      "name": "R",
+      "version": ">= 2.10"
+    }
+  ],
+  "releaseNotes": "https://github.com/leonawicz/trekfont/blob/master/NEWS.md",
+  "readme": "https://github.com/leonawicz/trekfont/blob/master/README.md",
+  "fileSize": "2247.044KB",
+  "contIntegration": ["https://travis-ci.org/leonawicz/trekfont", "https://ci.appveyor.com/project/leonawicz/trekfont"],
+  "relatedLink": "https://CRAN.R-project.org/package=trekfont"
+}

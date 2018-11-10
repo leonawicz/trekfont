@@ -1,7 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-trekfont <a hef="https://github.com/leonawicz/trekfont/blob/master/data-raw/trekfont.png?raw=true" _target="blank"><img src="https://github.com/leonawicz/trekfont/blob/master/data-raw/trekfont-small.png?raw=true" style="margin-left:10px;margin-bottom:5px;" width="120" align="right"></a>
-===============================================================================================================================================================================================================================================================================================
+trekfont <a hef="https://github.com/leonawicz/trekfont/blob/master/data-raw/trekfont.png?raw=true" _target="blank"><img src="https://github.com/leonawicz/trekfont/blob/master/data-raw/trekfont-small.png?raw=true" style="margin-left:10px;margin-bottom:5px;" width="130" height="150" align="right"></a>
+============================================================================================================================================================================================================================================================================================================
+
+**Author:** [Matthew Leonawicz](https://leonawicz.github.io/blog/) <a href="https://orcid.org/0000-0001-9452-2771" target="orcid.widget"> <image class="orcid" src="https://members.orcid.org/sites/default/files/vector_iD_icon.svg" height="16"></a> <br/> **License:** [MIT](https://opensource.org/licenses/GPL-3.0)<br/>
 
 [![CRAN status](http://www.r-pkg.org/badges/version/trekfont)](https://cran.r-project.org/package=trekfont) [![CRAN downloads](http://cranlogs.r-pkg.org/badges/grand-total/trekfont)](https://cran.r-project.org/package=trekfont) [![Rdoc](http://www.rdocumentation.org/badges/version/trekfont)](http://www.rdocumentation.org/packages/trekfont) [![Travis-CI Build Status](https://travis-ci.org/leonawicz/trekfont.svg?branch=master)](https://travis-ci.org/leonawicz/trekfont) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/leonawicz/trekfont?branch=master&svg=true)](https://ci.appveyor.com/project/leonawicz/trekfont)
 
