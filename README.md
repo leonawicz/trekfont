@@ -68,87 +68,72 @@ previewing the various fonts if `trekfont` is installed.
 
 <div class="col-sm-2">
 
-<img src="https://raw.githubusercontent.com/leonawicz/rtrek/master/man/figures/logo.png" style="float:left;margin-right:20px;margin-bottom:10px;" width="120">
+<a href="https://github.com/leonawicz/rtrek"><img src="https://raw.githubusercontent.com/leonawicz/rtrek/master/man/figures/logo.png" style="margin-right:20px;margin-bottom:0;" width="120" align="left"></a>
 
 </div>
 
 <div class="col-sm-10">
 
-<h3 style="padding-top:50px;">
-
-rtrek
-
-</h3>
-
-<h4 style="padding:0px;margin-top:5px;margin-bottom:5px;">
+<h4 style="padding:30px 0 0 0;margin-top:5px;margin-bottom:5px;">
 
 <a href="https://github.com/leonawicz/rtrek">rtrek</a>: The core Star
 Trek package
 
 </h4>
 
-This package contains datasets related to Star Trek, API wrappers to
-external data sources, and more.
+Datasets related to Star Trek, API wrappers to external data sources,
+and more.
 
 </div>
 
 </div>
+
+<br/>
 
 <div class="row">
 
 <div class="col-sm-2">
 
-<img src="https://raw.githubusercontent.com/leonawicz/trekcolors/master/man/figures/logo.png" style="float:left;margin-right:20px;margin-bottom:10px;" width="120">
+<a href="https://github.com/leonawicz/trekcolors"><img src="https://raw.githubusercontent.com/leonawicz/trekcolors/master/man/figures/logo.png" style="margin-right:20px;margin-bottom:0;" width="120" align="left"></a>
 
 </div>
 
 <div class="col-sm-10">
 
-<h3 style="padding-top:50px;">
-
-trekcolors
-
-</h3>
-
-<h4 style="padding:0px;margin-top:5px;margin-bottom:5px;">
+<h4 style="padding:30px 0 0 0;margin-top:5px;margin-bottom:5px;">
 
 <a href="https://github.com/leonawicz/trekcolors">trekcolors</a>: A
 color palette package
 
 </h4>
 
-This package contains predefined and customizable Star Trek themed color
-palettes and related functions.
+Predefined and customizable Star Trek themed color palettes and related
+functions.
 
 </div>
 
 </div>
+
+<br/>
 
 <div class="row">
 
 <div class="col-sm-2">
 
-<img src="https://raw.githubusercontent.com/leonawicz/trekfont/master/man/figures/logo.png" style="float:left;margin-right:20px;margin-bottom:10px;" width="120">
+<a href="https://github.com/leonawicz/trekfont"><img src="https://raw.githubusercontent.com/leonawicz/trekfont/master/man/figures/logo.png" style="margin-right:20px;margin-bottom:0;" width="120" align="left"></a>
 
 </div>
 
 <div class="col-sm-10">
 
-<h3 style="padding-top:50px;">
-
-trekfont
-
-</h3>
-
-<h4 style="padding:0px;margin-top:5px;margin-bottom:5px;">
+<h4 style="padding:30px 0 0 0;margin-top:5px;margin-bottom:5px;">
 
 <a href="https://github.com/leonawicz/trekfont">trekfont</a>: A fonts
 package
 
 </h4>
 
-This package contains true (trek) type fonts to style your Star Trek
-themed graphics text.
+True (Trek) type fonts to style your Star Trek themed graphics text.
 
 </div>
 
@@ -156,6 +141,7 @@ themed graphics text.
 
 -----
 
-Please note that this project is released with a [Contributor Code of
+Please note that the `trekfont` project is released with a [Contributor
+Code of
 Conduct](https://github.com/leonawicz/trekfont/blob/master/CODE_OF_CONDUCT.md).
-By participating in this project you agree to abide by its terms.
+By contributing to this project, you agree to abide by its terms.
