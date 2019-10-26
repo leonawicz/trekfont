@@ -66,8 +66,8 @@ This package contains datasets related to Star Trek, API wrappers to external da
 <img src="https://raw.githubusercontent.com/leonawicz/trekcolors/master/man/figures/logo.png" style="float:left;margin-right:20px;margin-bottom:10px;" width="120">
 </div>
 <div class="col-sm-10">
-<h3 style="padding-top:50px;">trekfont</h3>
-<h4 style="padding:0px;margin-top:5px;margin-bottom:5px;"><a href="https://github.com/leonawicz/rtrek">trekcolors</a>: A color palette package</h4>
+<h3 style="padding-top:50px;">trekcolors</h3>
+<h4 style="padding:0px;margin-top:5px;margin-bottom:5px;"><a href="https://github.com/leonawicz/trekcolors">trekcolors</a>: A color palette package</h4>
 This package contains predefined and customizable Star Trek themed color palettes and related functions.
 </div></div>
 
@@ -77,7 +77,7 @@ This package contains predefined and customizable Star Trek themed color palette
 </div>
 <div class="col-sm-10">
 <h3 style="padding-top:50px;">trekfont</h3>
-<h4 style="padding:0px;margin-top:5px;margin-bottom:5px;"><a href="https://github.com/leonawicz/rtrek">trekfont</a>: A fonts package</h4>
+<h4 style="padding:0px;margin-top:5px;margin-bottom:5px;"><a href="https://github.com/leonawicz/trekfont">trekfont</a>: A fonts package</h4>
 This package contains true (trek) type fonts to style your Star Trek themed graphics text.
 </div></div>
 

@@ -106,14 +106,14 @@ external data sources, and more.
 
 <h3 style="padding-top:50px;">
 
-trekfont
+trekcolors
 
 </h3>
 
 <h4 style="padding:0px;margin-top:5px;margin-bottom:5px;">
 
-<a href="https://github.com/leonawicz/rtrek">trekcolors</a>: A color
-palette package
+<a href="https://github.com/leonawicz/trekcolors">trekcolors</a>: A
+color palette package
 
 </h4>
 
@@ -142,7 +142,7 @@ trekfont
 
 <h4 style="padding:0px;margin-top:5px;margin-bottom:5px;">
 
-<a href="https://github.com/leonawicz/rtrek">trekfont</a>: A fonts
+<a href="https://github.com/leonawicz/trekfont">trekfont</a>: A fonts
 package
 
 </h4>
