@@ -4,7 +4,7 @@ library(hexSticker)
 library(memery)
 pkg <- basename(getwd())
 subplot <- "data-raw/hexsubplot.png"
-out <- paste0(c("data-raw/"), pkg, c(".png", "-small.png"))
+out <- "man/figures/logo.png"
 sysfonts::font_add(family = "tng", system.file("fonts/StarNext.ttf", package = "trekfont"))
 
 g <- ggplot() + theme_transparent()
@@ -21,6 +21,4 @@ hex_plot <- function(out, mult = 1){
   if(mult != 1) ggplot2::ggsave(out, width = mult*43.9, height = mult*50.8, bg = "transparent", units = "mm")
 }
 
-# Both logo versions in data-raw; neither published inside package
-hex_plot(out[1], 4) # multiplier for larger sticker size
-hex_plot(out[2])
+hex_plot(out, 4) # multiplier for larger sticker size
