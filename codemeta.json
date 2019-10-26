@@ -53,7 +53,7 @@
   ],
   "releaseNotes": "https://github.com/leonawicz/trekfont/blob/master/NEWS.md",
   "readme": "https://github.com/leonawicz/trekfont/blob/master/README.md",
-  "fileSize": "2357.865KB",
+  "fileSize": "2357.869KB",
   "contIntegration": [
     "https://travis-ci.org/leonawicz/trekfont",
     "https://ci.appveyor.com/project/leonawicz/trekfont"
