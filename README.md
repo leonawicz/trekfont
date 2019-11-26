@@ -23,6 +23,8 @@ downloads](http://cranlogs.r-pkg.org/badges/grand-total/trekfont)](https://cran.
 [![Github
 Stars](https://img.shields.io/github/stars/leonawicz/trekfont.svg?style=social&label=Github)](https://github.com/leonawicz/trekfont)
 
+[![Donate](https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-yellowgreen.svg)](https://ko-fi.com/leonawicz)
+
 This package contains true type and open type Star Trek fonts.
 
 <img src="https://raw.githubusercontent.com/leonawicz/rtrek/master/data-raw/images/font_preview.png">
