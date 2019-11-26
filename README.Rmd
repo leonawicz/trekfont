@@ -26,17 +26,17 @@ This package contains true type and open type Star Trek fonts.
 
 ## Installation
 
-Install `trekfont` from CRAN with:
+Install `trekfont` from CRAN with
 
 ``` r
 install.packages("trekfont")
 ```
 
-Install the development version from GitHub with:
+Install the development version from GitHub with
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("leonawicz/trekfont")
+# install.packages("remotes")
+remotes::install_github("leonawicz/trekfont")
 ```
 
 <img src="https://raw.githubusercontent.com/leonawicz/blog/master/static/img/post/trekfont_plot.png">
