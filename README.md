@@ -64,7 +64,7 @@ The [rtrek](https://github.com/leonawicz/rtrek) package does not import
 `trekfont`, but it does provide a convenient wrapper function for
 previewing the various fonts if `trekfont` is installed.
 
-## Packges in the trekverse
+## Packages in the trekverse
 
 <div class="row">
 
