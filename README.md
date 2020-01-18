@@ -167,6 +167,8 @@ True (Trek) type fonts to style your Star Trek themed graphics text.
 
 </div>
 
+<br>
+
 *If you enjoy my R community contributions, consider* ***[buying me a
 coffee in Ko-fi](https://ko-fi.com/leonawicz)*** *so I can keep
 developing and maintaining this and other packages :)*
