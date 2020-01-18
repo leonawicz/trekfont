@@ -15,4 +15,4 @@ ByteCompile: true
 URL: https://github.com/leonawicz/trekfont
 BugReports: https://github.com/leonawicz/trekfont/issues
 Depends: R (>= 2.10)
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.2
