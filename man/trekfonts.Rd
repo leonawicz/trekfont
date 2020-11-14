@@ -4,7 +4,9 @@
 \name{trekfonts}
 \alias{trekfonts}
 \title{Available Star Trek fonts.}
-\format{A character vector of 107 font files.}
+\format{
+A character vector of 107 font files.
+}
 \usage{
 trekfonts
 }

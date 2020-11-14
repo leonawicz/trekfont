@@ -3,7 +3,7 @@
 
 # trekfont <img src="man/figures/logo.png" style="margin-left:10px;margin-bottom:5px;" width="120" align="right">
 
-**Author:** [Matthew Leonawicz](https://leonawicz.github.io/blog/)
+**Author:** [Matthew Leonawicz](https://github.com/leonawicz)
 <a href="https://orcid.org/0000-0001-9452-2771" target="orcid.widget">
 <image class="orcid" src="https://members.orcid.org/sites/default/files/vector_iD_icon.svg" height="16"></a>
 <br/> **License:** [MIT](https://opensource.org/licenses/GPL-3.0)<br/>
@@ -15,6 +15,8 @@ developed.](http://www.repostatus.org/badges/latest/active.svg)](http://www.repo
 Status](https://travis-ci.org/leonawicz/trekfont.svg?branch=master)](https://travis-ci.org/leonawicz/trekfont)
 [![AppVeyor Build
 Status](https://ci.appveyor.com/api/projects/status/github/leonawicz/trekfont?branch=master&svg=true)](https://ci.appveyor.com/project/leonawicz/trekfont)
+[![Coverage
+Status](https://img.shields.io/codecov/c/github/leonawicz/trekfont/master.svg)](https://codecov.io/github/leonawicz/trekfont?branch=master)
 
 [![CRAN
 status](http://www.r-pkg.org/badges/version/trekfont)](https://cran.r-project.org/package=trekfont)
@@ -22,8 +24,6 @@ status](http://www.r-pkg.org/badges/version/trekfont)](https://cran.r-project.or
 downloads](http://cranlogs.r-pkg.org/badges/grand-total/trekfont)](https://cran.r-project.org/package=trekfont)
 [![Github
 Stars](https://img.shields.io/github/stars/leonawicz/trekfont.svg?style=social&label=Github)](https://github.com/leonawicz/trekfont)
-
-[![Donate](https://img.shields.io/badge/Donate-Buy%20me%20a%20coffee-yellowgreen.svg)](https://ko-fi.com/leonawicz)
 
 This package contains true type and open type Star Trek fonts.
 
@@ -44,25 +44,53 @@ Install the development version from GitHub with
 remotes::install_github("leonawicz/trekfont")
 ```
 
-<img src="https://raw.githubusercontent.com/leonawicz/blog/master/static/img/post/trekfont_plot.png">
-
-## Details
+## Examples
 
 `trekfonts` contains one dataset, `trekfonts`, which is just a character
 vector of all 107 available font files.
 
-Font files are located in the `inst` directory and can be installed
-using the [sysfonts](https://CRAN.R-project.org/package=sysfonts)
-package.
+Font files can be installed using the
+[sysfonts](https://CRAN.R-project.org/package=sysfonts) package.
 
-See this [simplified
-example](https://leonawicz.github.io/blog/post/trekfont-star-trek-themed-fonts-package/)
-with minimal use of other packages like `showtext` and `sysfonts` for
-loading and using these fonts.
+Here are some examples, leveraging `sysfonts` and `showtext`.
+
+``` r
+# install.packages("trekfont")
+library(showtext)
+font <- c("Khan", "StarNext", "FederationDS9Title", "Federation", "Klingon", "ModernVulcan", "TNGcast", "FederationStarfleet")
+path <- system.file(paste0("fonts/", font, ".ttf"), package = "trekfont")
+for(i in seq_along(font)) font_add(font[i], path[i])
+font_families()
+showtext_auto()
+```
+
+Use base graphics…
+
+``` r
+y <- seq(0.1, 0.9, length.out = 7)
+txt <- "The Quick Brown Fox Jumps Over The Lazy Dog"
+plot(0, 0, type = "n", ylim = c(0, 1), main = "trekfont package font sample", family = font[8])
+for(i in 1:7) text(0, y[i], txt, family = font[i])
+```
+
+or ggplot2…
+
+``` r
+library(ggplot2)
+g <- ggplot() + theme_gray(base_family = font[8]) + ggtitle("trekfont package font sample")
+for(i in 1:7) g <- g + annotate("text", 0, y[i], label = txt, family = font[i], size = 12.5)
+g
+```
+
+<img src="man/figures/trekfont_ggplot.jpg">
+
+Did you ever think you would be annotating your plots in Vulcan and
+Klingon?
 
 The [rtrek](https://github.com/leonawicz/rtrek) package does not import
-`trekfont`, but it does provide a convenient wrapper function for
-previewing the various fonts if `trekfont` is installed.
+`trekfont`, but it does provide a convenient wrapper function,
+`rtrek::st_font`, for previewing the various fonts if `trekfont` is
+installed. This is the example plot shown at the top.
 
 ## Packages in the trekverse
 
@@ -169,9 +197,23 @@ True (Trek) type fonts to style your Star Trek themed graphics text.
 
 <br>
 
-*If you enjoy my R community contributions, consider* ***[buying me a
-coffee in Ko-fi](https://ko-fi.com/leonawicz)*** *so I can keep
-developing and maintaining this and other packages :)*
+## Citation
+
+Matthew Leonawicz (2020). trekfont: Star Trek Fonts Collection. R
+package version 0.9.4. <https://CRAN.R-project.org/package=trekfont>
+
+## Contribute
+
+Contributions are welcome. Contribute through GitHub via pull request.
+Please create an issue first if it is regarding any substantive feature
+add or change.
+
+If you enjoy my open source R community contributions, please consider a
+donation :).
+
+  - [Buy me a coffee in Ko-fi](https://ko-fi.com/leonawicz)
+  - `leonawicz.crypto`
+  - `mfl$payid.crypto.com`
 
 -----
 

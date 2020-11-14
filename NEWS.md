@@ -1,6 +1,10 @@
 # trekfont 0.9.4
 
 * Minor documentation updates.
+* Include direct examples with `sysfonts` and `showtext`.
+* Removal of remote URL resources in favor of package resources.
+* Added `pkgdown` site.
+* Added minimal unit tests.
 
 # trekfont 0.9.3
 

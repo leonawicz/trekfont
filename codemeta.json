@@ -14,10 +14,9 @@
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
-    "version": "3.6.2",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 3.6.2 (2019-12-12)",
+  "runtimePlatform": "R version 4.0.3 (2020-10-10)",
   "provider": {
     "@id": "https://cran.r-project.org",
     "@type": "Organization",
@@ -42,7 +41,32 @@
       "@id": "https://orcid.org/0000-0001-9452-2771"
     }
   ],
-  "softwareSuggestions": [],
+  "softwareSuggestions": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "testthat",
+      "name": "testthat",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=testthat"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "covr",
+      "name": "covr",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=covr"
+    }
+  ],
   "softwareRequirements": [
     {
       "@type": "SoftwareApplication",
@@ -53,11 +77,8 @@
   ],
   "releaseNotes": "https://github.com/leonawicz/trekfont/blob/master/NEWS.md",
   "readme": "https://github.com/leonawicz/trekfont/blob/master/README.md",
-  "fileSize": "2358.152KB",
-  "contIntegration": [
-    "https://travis-ci.org/leonawicz/trekfont",
-    "https://ci.appveyor.com/project/leonawicz/trekfont"
-  ],
+  "fileSize": "6020.787KB",
+  "contIntegration": ["https://travis-ci.org/leonawicz/trekfont", "https://ci.appveyor.com/project/leonawicz/trekfont", "https://codecov.io/github/leonawicz/trekfont?branch=master"],
   "relatedLink": "https://CRAN.R-project.org/package=trekfont",
   "contributor": {},
   "copyrightHolder": {},
