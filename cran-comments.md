@@ -10,6 +10,4 @@
 
 ## This is an update release.
 
-* Documentation updates and URL fixes.
-
-* This is an update release. Documentation updates.
+* Fixed URL in Readme and resubmitted.
