@@ -10,13 +10,13 @@
   "codeRepository": "https://github.com/leonawicz/trekfont",
   "issueTracker": "https://github.com/leonawicz/trekfont/issues",
   "license": "https://spdx.org/licenses/GPL-3.0",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.0.3 (2020-10-10)",
+  "runtimePlatform": "R version 4.0.5 (2021-03-31)",
   "provider": {
     "@id": "https://cran.r-project.org",
     "@type": "Organization",
@@ -28,7 +28,7 @@
       "@type": "Person",
       "givenName": "Matthew",
       "familyName": "Leonawicz",
-      "email": "matt_leonawicz@esource.com",
+      "email": "mfleonawicz@gmail.com",
       "@id": "https://orcid.org/0000-0001-9452-2771"
     }
   ],
@@ -37,7 +37,7 @@
       "@type": "Person",
       "givenName": "Matthew",
       "familyName": "Leonawicz",
-      "email": "matt_leonawicz@esource.com",
+      "email": "mfleonawicz@gmail.com",
       "@id": "https://orcid.org/0000-0001-9452-2771"
     }
   ],
@@ -77,11 +77,16 @@
   ],
   "releaseNotes": "https://github.com/leonawicz/trekfont/blob/master/NEWS.md",
   "readme": "https://github.com/leonawicz/trekfont/blob/master/README.md",
-  "fileSize": "6020.787KB",
+  "fileSize": "6040.338KB",
   "contIntegration": ["https://travis-ci.org/leonawicz/trekfont", "https://ci.appveyor.com/project/leonawicz/trekfont", "https://codecov.io/github/leonawicz/trekfont?branch=master"],
   "relatedLink": "https://CRAN.R-project.org/package=trekfont",
   "contributor": {},
   "copyrightHolder": {},
   "funder": {},
-  "developmentStatus": "http://www.repostatus.org/#active"
+  "developmentStatus": "https://www.repostatus.org/",
+  "keywords": [
+    "r-package",
+    "star-trek",
+    "fonts"
+  ]
 }

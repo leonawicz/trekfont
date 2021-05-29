@@ -1,6 +1,6 @@
 ## Test environments
-* local Windows 10 install, R 4.0.3
-* ubuntu 14.04 (on travis-ci), R 4.0.3
+* local Windows 10 install, R 4.0.5
+* ubuntu 16.04 (on travis-ci), R 4.0.3
 * win-builder (devel and release)
 * R-Hub (various builds)
 
@@ -10,4 +10,4 @@
 
 ## This is an update release.
 
-* Fixed URL in Readme and resubmitted.
+* Maintainer email address update.
