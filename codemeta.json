@@ -13,7 +13,7 @@
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.4.0 (2024-04-24 ucrt)",
+  "runtimePlatform": "R version 4.4.1 (2024-06-14 ucrt)",
   "provider": {
     "@id": "https://cran.r-project.org",
     "@type": "Organization",
@@ -73,5 +73,5 @@
     },
     "SystemRequirements": null
   },
-  "fileSize": "4526.231KB"
+  "fileSize": "4526.933KB"
 }
