@@ -8,13 +8,13 @@
 [![Project Status: Active – The project has reached a stable, usable
 state and is being actively
 developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/)
-[![CRAN
-status](http://www.r-pkg.org/badges/version/trekfont)](https://cran.r-project.org/package=trekfont)
 [![R-CMD-check](https://github.com/leonawicz/trekfont/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/leonawicz/trekfont/actions/workflows/R-CMD-check.yaml)
-[![Coverage
-Status](https://img.shields.io/codecov/c/github/leonawicz/trekfont/master.svg)](https://codecov.io/github/leonawicz/trekfont?branch=master)
 [![Codecov test
 coverage](https://codecov.io/gh/leonawicz/trekfont/branch/master/graph/badge.svg)](https://app.codecov.io/gh/leonawicz/trekfont?branch=master)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/trekfont)](https://CRAN.R-project.org/package=trekfont)
+[![CRAN
+downloads](http://cranlogs.r-pkg.org/badges/grand-total/trekfont)](https://cran.r-project.org/package=trekfont)
 [![Github
 Stars](https://img.shields.io/github/stars/leonawicz/trekfont.svg?style=social&label=Github)](https://github.com/leonawicz/trekfont)
 <!-- badges: end -->
@@ -83,7 +83,7 @@ Klingon?
 
 The [rtrek](https://github.com/leonawicz/rtrek) package does not import
 `trekfont`, but it does provide a convenient wrapper function,
-`rtrek::st_font`, for previewing the various fonts if `trekfont` is
+`rtrek::st_font()`, for previewing the various fonts if `trekfont` is
 installed. This is the example plot shown at the top.
 
 ## Packages in the trekverse
