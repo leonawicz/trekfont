@@ -1,3 +1,7 @@
+# trekfont 0.9.6
+
+* Minor updates.
+
 # trekfont 0.9.5
 
 * Minor updates.
