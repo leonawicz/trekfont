@@ -10,7 +10,7 @@ state and is being actively
 developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/)
 [![R-CMD-check](https://github.com/leonawicz/trekfont/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/leonawicz/trekfont/actions/workflows/R-CMD-check.yaml)
 [![Codecov test
-coverage](https://codecov.io/gh/leonawicz/trekfont/branch/master/graph/badge.svg)](https://app.codecov.io/gh/leonawicz/trekfont?branch=master)
+coverage](https://codecov.io/gh/leonawicz/trekcolors/graph/badge.svg)](https://app.codecov.io/gh/leonawicz/trekcolors)
 [![CRAN
 status](https://www.r-pkg.org/badges/version/trekfont)](https://CRAN.R-project.org/package=trekfont)
 [![CRAN

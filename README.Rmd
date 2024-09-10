@@ -9,7 +9,7 @@ output: github_document
 <!-- badges: start -->
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/)
 [![R-CMD-check](https://github.com/leonawicz/trekfont/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/leonawicz/trekfont/actions/workflows/R-CMD-check.yaml)
-[![Codecov test coverage](https://codecov.io/gh/leonawicz/trekfont/branch/master/graph/badge.svg)](https://app.codecov.io/gh/leonawicz/trekfont?branch=master)
+[![Codecov test coverage](https://codecov.io/gh/leonawicz/trekcolors/graph/badge.svg)](https://app.codecov.io/gh/leonawicz/trekcolors)
 [![CRAN status](https://www.r-pkg.org/badges/version/trekfont)](https://CRAN.R-project.org/package=trekfont)
 [![CRAN downloads](https://cranlogs.r-pkg.org/badges/grand-total/trekfont)](https://cran.r-project.org/package=trekfont) 
 [![Github Stars](https://img.shields.io/github/stars/leonawicz/trekfont.svg?style=social&label=Github)](https://github.com/leonawicz/trekfont)
