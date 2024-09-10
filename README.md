@@ -14,7 +14,7 @@ coverage](https://codecov.io/gh/leonawicz/trekfont/branch/master/graph/badge.svg
 [![CRAN
 status](https://www.r-pkg.org/badges/version/trekfont)](https://CRAN.R-project.org/package=trekfont)
 [![CRAN
-downloads](http://cranlogs.r-pkg.org/badges/grand-total/trekfont)](https://cran.r-project.org/package=trekfont)
+downloads](https://cranlogs.r-pkg.org/badges/grand-total/trekfont)](https://cran.r-project.org/package=trekfont)
 [![Github
 Stars](https://img.shields.io/github/stars/leonawicz/trekfont.svg?style=social&label=Github)](https://github.com/leonawicz/trekfont)
 <!-- badges: end -->
