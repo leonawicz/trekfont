@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://leonawicz.github.io/trekfont/index.html</loc>
-  </url>
-  <url>
-    <loc>https://leonawicz.github.io/trekfont/reference/show_trekfonts.html</loc>
-  </url>
-  <url>
-    <loc>https://leonawicz.github.io/trekfont/reference/trekfonts.html</loc>
-  </url>
+<urlset xmlns = 'http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://leonawicz.github.io/trekfont/404.html</loc></url>
+<url><loc>https://leonawicz.github.io/trekfont/authors.html</loc></url>
+<url><loc>https://leonawicz.github.io/trekfont/CODE_OF_CONDUCT.html</loc></url>
+<url><loc>https://leonawicz.github.io/trekfont/index.html</loc></url>
+<url><loc>https://leonawicz.github.io/trekfont/LICENSE.html</loc></url>
+<url><loc>https://leonawicz.github.io/trekfont/news/index.html</loc></url>
+<url><loc>https://leonawicz.github.io/trekfont/reference/index.html</loc></url>
+<url><loc>https://leonawicz.github.io/trekfont/reference/show_trekfonts.html</loc></url>
+<url><loc>https://leonawicz.github.io/trekfont/reference/trekfonts.html</loc></url>
 </urlset>
+

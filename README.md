@@ -3,27 +3,21 @@
 
 # trekfont <img src="man/figures/logo.png" style="margin-left:10px;margin-bottom:5px;" width="120" align="right">
 
-**Author:** [Matthew Leonawicz](https://github.com/leonawicz)
-<a href="https://orcid.org/0000-0001-9452-2771" target="orcid.widget">
-<img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" /></a>
-<br/> **License:** [MIT](https://opensource.org/licenses/GPL-3.0)<br/>
+<!-- badges: start -->
 
 [![Project Status: Active – The project has reached a stable, usable
 state and is being actively
 developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/)
-[![Travis-CI Build
-Status](https://travis-ci.org/leonawicz/trekfont.svg?branch=master)](https://travis-ci.org/leonawicz/trekfont)
-[![AppVeyor Build
-Status](https://ci.appveyor.com/api/projects/status/github/leonawicz/trekfont?branch=master&svg=true)](https://ci.appveyor.com/project/leonawicz/trekfont)
-[![Coverage
-Status](https://img.shields.io/codecov/c/github/leonawicz/trekfont/master.svg)](https://codecov.io/github/leonawicz/trekfont?branch=master)
-
 [![CRAN
 status](http://www.r-pkg.org/badges/version/trekfont)](https://cran.r-project.org/package=trekfont)
-[![CRAN
-downloads](http://cranlogs.r-pkg.org/badges/grand-total/trekfont)](https://cran.r-project.org/package=trekfont)
+[![R-CMD-check](https://github.com/leonawicz/trekfont/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/leonawicz/trekfont/actions/workflows/R-CMD-check.yaml)
+[![Coverage
+Status](https://img.shields.io/codecov/c/github/leonawicz/trekfont/master.svg)](https://codecov.io/github/leonawicz/trekfont?branch=master)
+[![Codecov test
+coverage](https://codecov.io/gh/leonawicz/trekfont/branch/master/graph/badge.svg)](https://app.codecov.io/gh/leonawicz/trekfont?branch=master)
 [![Github
 Stars](https://img.shields.io/github/stars/leonawicz/trekfont.svg?style=social&label=Github)](https://github.com/leonawicz/trekfont)
+<!-- badges: end -->
 
 This package contains true type and open type Star Trek fonts.
 
@@ -105,10 +99,8 @@ installed. This is the example plot shown at the top.
 <div class="col-sm-10">
 
 <h4 style="padding:30px 0 0 0;margin-top:5px;margin-bottom:5px;">
-
 <a href="https://github.com/leonawicz/rtrek">rtrek</a>: The core Star
 Trek package
-
 </h4>
 
 Datasets related to Star Trek, API wrappers to external data sources,
@@ -131,10 +123,8 @@ and more.
 <div class="col-sm-10">
 
 <h4 style="padding:30px 0 0 0;margin-top:5px;margin-bottom:5px;">
-
 <a href="https://github.com/leonawicz/lcars">lcars</a>: LCARS aesthetic
 for Shiny
-
 </h4>
 
 Create Shiny apps based on the Library Computer Access/Retrieval System
@@ -157,10 +147,8 @@ Create Shiny apps based on the Library Computer Access/Retrieval System
 <div class="col-sm-10">
 
 <h4 style="padding:30px 0 0 0;margin-top:5px;margin-bottom:5px;">
-
 <a href="https://github.com/leonawicz/trekcolors">trekcolors</a>: A
 color palette package
-
 </h4>
 
 Predefined and customizable Star Trek themed color palettes and related
@@ -183,10 +171,8 @@ functions.
 <div class="col-sm-10">
 
 <h4 style="padding:30px 0 0 0;margin-top:5px;margin-bottom:5px;">
-
 <a href="https://github.com/leonawicz/trekfont">trekfont</a>: A fonts
 package
-
 </h4>
 
 True (Trek) type fonts to style your Star Trek themed graphics text.
@@ -199,8 +185,8 @@ True (Trek) type fonts to style your Star Trek themed graphics text.
 
 ## Citation
 
-Matthew Leonawicz (2021). trekfont: Star Trek Fonts Collection. R
-package version 0.9.5. <https://CRAN.R-project.org/package=trekfont>
+Matthew Leonawicz (2024). trekfont: Star Trek Fonts Collection. R
+package version 0.9.6. <https://CRAN.R-project.org/package=trekfont>
 
 ## Contribute
 
@@ -208,7 +194,7 @@ Contributions are welcome. Contribute through GitHub via pull request.
 Please create an issue first if it is regarding any substantive feature
 add or change.
 
------
+------------------------------------------------------------------------
 
 Please note that the `trekfont` project is released with a [Contributor
 Code of
