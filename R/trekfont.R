@@ -1,3 +1,6 @@
+#' @name trekfont
+"_PACKAGE"
+
 #' Available Star Trek fonts.
 #'
 #' Comprehensive listing of all available fonts. These fonts are sourced from https://github.com/wrstone/fonts-startrek under the GPL-3 license.
